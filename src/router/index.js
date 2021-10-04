@@ -1,7 +1,5 @@
 import { createRouter, createWebHistory } from '@ionic/vue-router'
 
-
-
 const routes = [
   {
     path: '/',
