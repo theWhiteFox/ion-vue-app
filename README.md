@@ -5,8 +5,6 @@ Builld out a basic Ionic Vue app
 [Ionic & Vue.js - Full Tutorial (Build a Complete App)](https://youtu.be/mQ4zmFy4d7Y)
 [https://ionicframework.com/docs/vue/your-first-app](https://ionicframework.com/docs/vue/your-first-app)
 
-The acronym MEVN stands for MongoDB, Express.js, VueJS, Node.js.
-
 https://blog.logrocket.com/author/ukpaiugochi/
 
 ```npm install```
