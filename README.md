@@ -27,3 +27,5 @@ TypeScript removed
 [npm.io css variables](https://npm.io/search/keyword:css-variables)
 
 https://en.wikipedia.org/wiki/State_management
+
+https://dev.to/aaronksaunders/ionic-framework-with-vuejs-split-view-menu-with-authentication-flow-using-vuex-vue-composition-3ii0
