@@ -25,3 +25,5 @@ TypeScript removed
 [MDN Using CSS custom properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties)
 
 [npm.io css variables](https://npm.io/search/keyword:css-variables)
+
+https://en.wikipedia.org/wiki/State_management
