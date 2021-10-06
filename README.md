@@ -12,11 +12,10 @@ https://blog.logrocket.com/author/ukpaiugochi/
 ```ionic serve```
 
 ## Dependencies 
-[Veux](https://vuex.vuejs.org/installation.html#direct-download-cdn)
+[Veux](https://vuex.vuejs.org/installation.html#direct-download-cdn) State management solution 
 
 ```npm install vuex@next --save```
 
-State management solution 
 
 TypeScript removed
 [TypeScriptLang compiler options](https://www.typescriptlang.org/docs/handbook/compiler-options.html)
