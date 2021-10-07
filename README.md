@@ -13,6 +13,7 @@ https://blog.logrocket.com/author/ukpaiugochi/
 
 ## Dependencies 
 [Veux](https://vuex.vuejs.org/installation.html#direct-download-cdn) State management solution 
+[axios](https://axios-http.com/docs/intro)
 
 ```npm install vuex@next --save```
 
@@ -28,3 +29,6 @@ TypeScript removed
 https://en.wikipedia.org/wiki/State_management
 
 https://dev.to/aaronksaunders/ionic-framework-with-vuejs-split-view-menu-with-authentication-flow-using-vuex-vue-composition-3ii0
+
+## Vuex & Axios
+https://blog.logrocket.com/how-to-consume-apis-with-vuex-and-axios/
