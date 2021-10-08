@@ -31,8 +31,7 @@ https://en.wikipedia.org/wiki/State_management
 https://dev.to/aaronksaunders/ionic-framework-with-vuejs-split-view-menu-with-authentication-flow-using-vuex-vue-composition-3ii0
 
 ## Vuex & Axios
-https://blog.logrocket.com/how-to-consume-apis-with-vuex-and-axios/
-
-https://medium.com/@xoor/introduction-to-vue-object-relational-mapping-orm-4ce4c0db6293
-
-https://vuex-orm.github.io/plugin-axios/
+Vuex data store:
+- https://blog.logrocket.com/how-to-consume-apis-with-vuex-and-axios/
+- https://medium.com/@xoor/introduction-to-vue-object-relational-mapping-orm-4ce4c0db6293
+- https://vuex-orm.github.io/plugin-axios/
