@@ -8,7 +8,8 @@ const routes = [
   {
     path: '/memories',
     component: () => import('../pages/MemoriesPage.vue')
-  },{
+  },
+  {
     path: '/memories/:id',
     component: () => import('../pages/MemoryDetails.vue')
   }
