@@ -10,7 +10,7 @@ const routes = [
     component: () => import('../pages/MemoriesPage.vue')
   },
   {
-    path: '/memories/:id',
+    path: '/memories/:slug',
     component: () => import('../pages/MemoryDetails.vue')
   }
 ]

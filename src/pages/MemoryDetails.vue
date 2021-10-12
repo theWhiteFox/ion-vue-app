@@ -11,12 +11,12 @@
 export default {
   data() {
     return {
-      memoryId: this.$route.params.id,
+      memorySlug: this.$route.params.slug,
     };
   },
   computed: {
     loadedMemory() {
-      return this.$store.getters.memory(this.memoryId);
+      return this.$store.getters.memory(this.memorySlug);
     },
   },
   // watch: {
