@@ -11,7 +11,7 @@ const routes = [
   },
   {
     path: '/memories/:slug',
-    component: () => import('../pages/MemoryDetails.vue')
+    component: () => import('../pages/MemoryDetailsPage.vue')
   }
 ]
 

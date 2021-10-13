@@ -1,6 +1,6 @@
 # ion vue app
 
-Builld out a basic Ionic Vue app 
+Build out a basic Ionic Vue app 
 
 [Ionic & Vue.js - Full Tutorial (Build a Complete App)](https://youtu.be/mQ4zmFy4d7Y)
 [https://ionicframework.com/docs/vue/your-first-app](https://ionicframework.com/docs/vue/your-first-app)
@@ -10,13 +10,11 @@ https://blog.logrocket.com/author/ukpaiugochi/
 ```npm install```
 
 ```ionic serve```
-
 ## Dependencies 
 [Veux](https://vuex.vuejs.org/installation.html#direct-download-cdn) State management solution 
 [axios](https://axios-http.com/docs/intro)
 
 ```npm install vuex@next --save```
-
 
 TypeScript removed
 [TypeScriptLang compiler options](https://www.typescriptlang.org/docs/handbook/compiler-options.html)
@@ -35,3 +33,6 @@ Vuex data store:
 - https://blog.logrocket.com/how-to-consume-apis-with-vuex-and-axios/
 - https://medium.com/@xoor/introduction-to-vue-object-relational-mapping-orm-4ce4c0db6293
 - https://vuex-orm.github.io/plugin-axios/
+
+
+External API request https://rickandmortyapi.com/
