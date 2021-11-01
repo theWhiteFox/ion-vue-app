@@ -1,6 +1,4 @@
 import { createApp } from 'vue'
-
-
 import App from './App.vue'
 import BaseLayout from './components/base/BaseLayout'
 import router from './router'
