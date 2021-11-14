@@ -53,9 +53,9 @@ const store = createStore({
       return state.memories;
     },
     memory(state) {
-      return (memorySlug) => {
-        console.log(memorySlug)
-        return state.memories.find((memory) => memory.slug === memorySlug);
+      return (memoryId) => {
+        console.log(memoryId)
+        return state.memories.find((memory) => memory.id === memoryId);
       };
     },
   },

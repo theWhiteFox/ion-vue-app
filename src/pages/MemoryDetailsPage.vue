@@ -19,12 +19,12 @@ import MemoryOverview from "../components/memories/MemoriesOverview.vue";
 export default {
   data() {
     return {
-      memorySlug: this.$route.params.slug,
+      memoryId: this.$route.params.id,
     };
   },
   computed: {
     loadedMemory() {
-      return this.$store.getters.memory(this.memorySlug);
+      return this.$store.getters.memory(this.memoryId);
     },
   },
   components: {

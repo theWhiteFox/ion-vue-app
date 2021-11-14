@@ -1,6 +1,6 @@
 <template>
   <ion-item
-    :router-link="`/memories/${memory.slug}`"
+    :router-link="`/memories/${memory.id}`"
   >
     <ion-thumbnail slot="start">
       <ion-img :src="memory.image" :alt="memory.title"></ion-img>
