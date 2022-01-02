@@ -30,7 +30,7 @@ import {
   IonContent,
   IonBackButton,
   IonButtons,
-  IonList
+  IonList,
 } from "@ionic/vue";
 export default {
   props: ["pageTitle", "pageDefaultBackLink"],
@@ -42,7 +42,7 @@ export default {
     IonContent,
     IonBackButton,
     IonButtons,
-    IonList
+    IonList,
   },
 };
 </script>
