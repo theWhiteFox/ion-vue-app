@@ -1,4 +1,4 @@
-# Ionic Vue Application
+# Ionic Vue Mobile Application
 
 Build out a basic Ionic Vue app [Ionic & Vue.js - Full Tutorial (Build a Complete App)](https://youtu.be/mQ4zmFy4d7Y)
 
