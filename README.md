@@ -1,4 +1,4 @@
-# ion vue app
+# Ionic Vue Application
 
 Build out a basic Ionic Vue app [Ionic & Vue.js - Full Tutorial (Build a Complete App)](https://youtu.be/mQ4zmFy4d7Y)
 
@@ -10,8 +10,8 @@ Build out a basic Ionic Vue app [Ionic & Vue.js - Full Tutorial (Build a Complet
 
 ```ionic serve```
 ## Dependencies 
-[Veux](https://vuex.vuejs.org/installation.html#direct-download-cdn) State management solution 
-[axios](https://axios-http.com/docs/intro)
+- [Veux](https://vuex.vuejs.org/installation.html#direct-download-cdn) State management solution 
+- [axios](https://axios-http.com/docs/intro)
 
 ```npm install vuex@next --save```
 
