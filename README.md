@@ -1,6 +1,8 @@
 # Ionic Vue Mobile Application
 
-Build out a basic Ionic Vue app [Ionic & Vue.js - Full Tutorial (Build a Complete App)](https://youtu.be/mQ4zmFy4d7Y)
+Build out a basic Ionic Vue app [thewhitefox Ionic Vue/](https://www.thewhitefox.ninja/2022/2022-01-03-ionic-vue/)
+
+[Ionic & Vue.js - Full Tutorial (Build a Complete App)](https://youtu.be/mQ4zmFy4d7Y)
 
 [ionicframework vue your-first-app](https://ionicframework.com/docs/vue/your-first-app)
 
