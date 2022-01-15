@@ -34,5 +34,6 @@ Vuex data store:
 - https://blog.logrocket.com/how-to-consume-apis-with-vuex-and-axios/
 - https://medium.com/@xoor/introduction-to-vue-object-relational-mapping-orm-4ce4c0db6293
 - https://vuex-orm.github.io/plugin-axios/
+- https://router.vuejs.org/
 
 [https://vuemc.io/#introduction](https://vuemc.io/#introduction)
