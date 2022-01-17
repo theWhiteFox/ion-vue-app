@@ -4,42 +4,31 @@
       <ion-buttons slot="start">
         <ion-back-button></ion-back-button>
       </ion-buttons>
-      <ion-title>My Navigation Bar</ion-title>
+      <ion-title>My Navigation</ion-title>
     </ion-toolbar>
-  
-    <ion-toolbar>
-      <ion-title>Subheader</ion-title>
-    </ion-toolbar>
+      <ion-menu />
   </ion-header>
-  
-  <ion-content>
-    <ion-header collapse="condense">
-      <ion-toolbar>
-        <ion-title size="large">My Navigation Bar</ion-title>
-      </ion-toolbar>
-    </ion-header>
-  </ion-content>
 </template>
 
 <script>
 import { 
   IonBackButton, 
   IonButtons, 
-  IonContent, 
   IonHeader, 
   IonTitle, 
   IonToolbar
 } from '@ionic/vue';
 import { defineComponent } from 'vue';
+import IonMenu from './IonMenu.vue';
 
 export default defineComponent({
   components: { 
     IonBackButton, 
-    IonButtons, 
-    IonContent, 
+    IonButtons,
     IonHeader, 
     IonTitle, 
-    IonToolbar
+    IonToolbar,
+    IonMenu
   }
 });
 </script>

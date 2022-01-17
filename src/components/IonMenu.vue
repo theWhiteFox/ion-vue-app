@@ -1,100 +1,69 @@
 <template>
-  <ion-menu side="start" menu-id="first" content-id="main">
-    <ion-header>
-      <ion-toolbar color="primary">
-        <ion-title>Start Menu</ion-title>
-      </ion-toolbar>
-    </ion-header>
-    <ion-content>
-      <ion-list>
-        <ion-item>Menu Item</ion-item>
-        <ion-item>Menu Item</ion-item>
-        <ion-item>Menu Item</ion-item>
-        <ion-item>Menu Item</ion-item>
-        <ion-item>Menu Item</ion-item>
-      </ion-list>
-    </ion-content>
-  </ion-menu>
+   <ion-app>
+      <ion-menu side="start" content-id="main-content">
+        <ion-header>
+          <ion-toolbar translucent>
+            <ion-title>Menu</ion-title>
+          </ion-toolbar>
+        </ion-header>
+        <ion-content>
+          <ion-list>
+            <ion-item>
+              <ion-icon name="mail" slot="start"></ion-icon>
+              <ion-label>Inbox</ion-label>
+            </ion-item>
+            <ion-item>
+              <ion-icon name="paper-plane" slot="start"></ion-icon>
+              <ion-label>Outbox</ion-label>
+            </ion-item>
+            <ion-item>
+              <ion-icon name="heart" slot="start"></ion-icon>
+              <ion-label>Favorites</ion-label>
+            </ion-item>
+            <ion-item>
+              <ion-icon name="archive" slot="start"></ion-icon>
+              <ion-label>Archived</ion-label>
+            </ion-item>
+            <ion-item>
+              <ion-icon name="trash" slot="start"></ion-icon>
+              <ion-label>Trash</ion-label>
+            </ion-item>
+            <ion-item>
+              <ion-icon name="warning" slot="start"></ion-icon>
+              <ion-label>Spam</ion-label>
+            </ion-item>
+          </ion-list>
+        </ion-content>
+      </ion-menu>
 
-  <ion-menu side="start" menu-id="custom" class="my-custom-menu" content-id="main">
-    <ion-header>
-      <ion-toolbar color="tertiary">
-        <ion-title>Custom Menu</ion-title>
-      </ion-toolbar>
-    </ion-header>
-    <ion-content>
-      <ion-list>
-        <ion-item>Menu Item</ion-item>
-        <ion-item>Menu Item</ion-item>
-        <ion-item>Menu Item</ion-item>
-        <ion-item>Menu Item</ion-item>
-        <ion-item>Menu Item</ion-item>
-      </ion-list>
-    </ion-content>
-  </ion-menu>
+      <div class="ion-page" id="main-content">
+        <ion-header>
+          <ion-toolbar>
+            <ion-buttons slot="start">
+              <ion-menu-button></ion-menu-button>
+            </ion-buttons>
+            <ion-title>Inbox</ion-title>
+          </ion-toolbar>
+        </ion-header>
+        <ion-content class="ion-padding">
+          <ion-button expand="block" onclick="openMenu()">Open Menu</ion-button>
+        </ion-content>
+      </div>
+    </ion-app>
 
-  <ion-menu side="end" type="push" content-id="main">
-    <ion-header>
-      <ion-toolbar color="danger">
-        <ion-title>End Menu</ion-title>
-      </ion-toolbar>
-    </ion-header>
-    <ion-content>
-      <ion-list>
-        <ion-item>Menu Item</ion-item>
-        <ion-item>Menu Item</ion-item>
-        <ion-item>Menu Item</ion-item>
-        <ion-item>Menu Item</ion-item>
-        <ion-item>Menu Item</ion-item>
-      </ion-list>
-    </ion-content>
-  </ion-menu>
-
-  <ion-router-outlet id="main"></ion-router-outlet>
 </template>
-<style>
-.my-custom-menu {
-  --width: 500px;
-}
-</style>
-
 <script>
-import { 
-  IonContent, 
-  IonHeader, 
-  IonItem, 
-  IonList, 
-  IonMenu, 
-  IonRouterOutlet,
-  IonTitle, 
-  IonToolbar,
-  menuController
-} from '@ionic/vue';
-import { defineComponent } from 'vue';
+import { defineComponent } from '@vue/composition-api'
 
 export default defineComponent({
-  components: {
-    IonContent, 
-    IonHeader, 
-    IonItem, 
-    IonList, 
-    IonMenu, 
-    IonRouterOutlet,
-    IonTitle, 
-    IonToolbar
+  setup() {
+   
+      async function openMenu() {
+        await menuController.open();
+      }
+
   },
-  methods: {
-    openFirst() {
-      menuController.enable(true, 'first');
-      menuController.open('first');
-    },
-    openEnd() {
-      menuController.open('end');
-    },
-    openCustom() {
-      menuController.enable(true, 'custom');
-      menuController.open('custom');
-    }
-  }
-});
+})
 </script>
+
+   
