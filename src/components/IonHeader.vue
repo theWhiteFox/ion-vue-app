@@ -19,7 +19,7 @@ import {
   IonToolbar
 } from '@ionic/vue';
 import { defineComponent } from 'vue';
-import IonMenu from './IonMenu.vue';
+// import IonMenu from './IonMenu.vue';
 
 export default defineComponent({
   components: { 
@@ -28,7 +28,7 @@ export default defineComponent({
     IonHeader, 
     IonTitle, 
     IonToolbar,
-    IonMenu
+    // IonMenu
   }
 });
 </script>
